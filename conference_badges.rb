@@ -10,7 +10,8 @@ def batch_badge_creator(name)
   end 
 end 
 
-def assign_rooms (person)
+def assign_rooms (person, room)
+  person.each
   
   
 end 
