@@ -11,8 +11,7 @@ def batch_badge_creator(name)
 end 
 
 def assign_rooms (person, room)
-  person.each do |persons|
-    puts person << room.index 
+  person.each {|persons| puts person << room.index} 
     
   
   
