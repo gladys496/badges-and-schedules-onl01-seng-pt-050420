@@ -12,6 +12,7 @@ end
 
 def assign_rooms (person, room)
   person.each {|persons| puts person << room.index} 
+  puts "Hello, #{person}! You'll be assisned to room #{index}!"
     
   
   
